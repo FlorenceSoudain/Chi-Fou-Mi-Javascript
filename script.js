@@ -11,7 +11,7 @@ document.getElementById('pierre').addEventListener('click', function () {
     if(choixOrdinateur === 2)
     {
         alert("L'ordinateur a fait feuille. Vous avez perdu");
-        document.getElementById('ordi').innerHTML = "Score de l'ordi = " + scoreOrdinateur++
+        document.getElementById('ordi').innerHTML = "Score de l'ordinateur = " + scoreOrdinateur++
     }
     if ( choixOrdinateur === 3)
     {
@@ -33,7 +33,7 @@ document.getElementById('feuille').addEventListener('click', function () {
     if(choixOrdinateur === 3)
     {
         alert("L'ordinateur a fait ciseaux. Vous avez perdu");
-        document.getElementById('ordi').innerHTML = "Score de l'ordi = " + scoreOrdinateur++
+        document.getElementById('ordi').innerHTML = "Score de l'ordinateur = " + scoreOrdinateur++
     }
     if (choixOrdinateur === 1)
     {
@@ -55,7 +55,7 @@ document.getElementById('ciseaux').addEventListener('click', function () {
     if(choixOrdinateur === 1)
     {
         alert("L'ordinateur a fait pierre. Vous avez perdu");
-        document.getElementById('ordi').innerHTML = "Score de l'ordi = " + scoreOrdinateur++
+        document.getElementById('ordi').innerHTML = "Score de l'ordinateur = " + scoreOrdinateur++
     }
     if (choixOrdinateur === 2)
     {
