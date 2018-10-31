@@ -5,13 +5,25 @@
 }
 h1 {
     text-align: center;
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
 }
 h3 {
     text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    text-decoration: underline darkmagenta;
 }
 body {
     background: lavender;
+    font-size: 18px;
 }
-.score {
+#score {
     text-align: center;
+}
+header {
+    background: darkmagenta;
+    color: white;
+    height: 80px;
 }

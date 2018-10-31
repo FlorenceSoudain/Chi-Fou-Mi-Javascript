@@ -10,17 +10,17 @@ document.getElementById('pierre').addEventListener('click', function () {
     choixOrdinateur = Math.round(choixOrdinateur);
     if(choixOrdinateur === 2)
     {
-        alert("Perdu");
+        alert("L'ordinateur a fait feuille. Vous avez perdu");
         document.getElementById('ordi').innerHTML = "Score de l'ordi = " + scoreOrdinateur++
     }
     if ( choixOrdinateur === 3)
     {
-        alert("Gagné");
+        alert("L'ordinateur a fait ciseaux. Vous avez gagné");
         document.getElementById('joueur').innerHTML = "Votre score = " + scoreUtilisateur++
     }
     if (choixOrdinateur === 1)
     {
-        alert("Egalité");
+        alert("L'ordinateur a fait pierre. Egalité");
         document.getElementById('egalite').innerHTML = "Egalité = " + egalite++
     }
 
@@ -32,17 +32,17 @@ document.getElementById('feuille').addEventListener('click', function () {
     choixOrdinateur = Math.round(choixOrdinateur);
     if(choixOrdinateur === 3)
     {
-        alert("Perdu");
+        alert("L'ordinateur a fait ciseaux. Vous avez perdu");
         document.getElementById('ordi').innerHTML = "Score de l'ordi = " + scoreOrdinateur++
     }
     if (choixOrdinateur === 1)
     {
-        alert("Gagné");
+        alert("L'ordinateur a fait pierre. Vous avez gagné");
         document.getElementById('joueur').innerHTML = "Votre score = " + scoreUtilisateur++
     }
     if (choixOrdinateur === 2)
     {
-        alert("Egalité");
+        alert("L'ordinateur a fait feuille. Egalité");
         document.getElementById('egalite').innerHTML = "Egalité = " + egalite++
     }
 
@@ -54,17 +54,17 @@ document.getElementById('ciseaux').addEventListener('click', function () {
     choixOrdinateur = Math.round(choixOrdinateur);
     if(choixOrdinateur === 1)
     {
-        alert("Perdu");
+        alert("L'ordinateur a fait pierre. Vous avez perdu");
         document.getElementById('ordi').innerHTML = "Score de l'ordi = " + scoreOrdinateur++
     }
     if (choixOrdinateur === 2)
     {
-        alert("Gagné");
+        alert("L'ordinateur a fait feuille. Vous avez gagné");
         document.getElementById('joueur').innerHTML = "Votre score = " + scoreUtilisateur++
     }
     if (choixOrdinateur === 3)
     {
-        alert("Egalité");
+        alert("L'ordinateur a fait ciseaux. Egalité");
         document.getElementById('egalite').innerHTML = "Egalité = " + egalite++
     }
 
