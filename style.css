@@ -5,13 +5,14 @@
 }
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     font-family: 'Abril Fatface', cursive;
+
 }
 h3 {
     text-align: center;
-    padding: 15px;
-    font-size: 30px;
+    padding: 8px;
+    font-size: 20px;
     font-family: 'Abril Fatface', cursive;
     text-decoration: underline darkmagenta;
 }
@@ -21,9 +22,31 @@ body {
 }
 #score {
     text-align: center;
+    margin-left: 100px;
 }
 header {
     background: darkmagenta;
     color: white;
-    height: 80px;
+}
+#pierre {
+    border: solid darkmagenta 1px;
+    margin: 10px;
+}
+#feuille {
+    border: solid darkmagenta 1px;
+    margin: 10px;
+}
+#ciseaux {
+    border: solid darkmagenta 1px;
+    margin: 10px;
+}
+#chordi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
